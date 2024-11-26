@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jakub Cegłowski - PHP Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        body {
+            display: flex;
+            width: 100%;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('./background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 0 3px black;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        body::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: .04;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-top: 20%;
+        }
+        .content {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to my GitHub Profile</h1>
+<h2>I am Jakub Cegłowski</h2>
+<div class="content">
+    <p>
+        As a Junior PHP Fullstack Developer I have over two years of experience creating web applications across both backend and frontend layers.
+    </p>
+    <p>
+        My expertise lies in PHP development with frameworks like Symfony and crafting advanced user interfaces using JavaScript ES6+, SCSS, and frontend libraries.
+    </p>
+</div>
+</body>
+</html>
