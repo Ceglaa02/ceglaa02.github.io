@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jakub Cegłowski - PHP Developer</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <style>
         html, body {
             height: 100%;
@@ -46,21 +47,49 @@
             font-size: 3rem;
             margin-top: 20%;
         }
+        .btn{
+            font-size: 20px;
+
+            position: relative;
+            z-index: 1;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+            cursor: pointer;
+
+            background: black;
+            color: white;
+
+            border-radius: 6px;
+            padding: .5rem;
+
+            box-shadow: 0 0 0 #c200ff;
+
+            transition: background-color .3s linear, box-shadow .3s linear;
+        }
+
+        .btn:hover{
+            background-color: #c200ff;
+            box-shadow: 0 0 12px #c200ff;
+        }
+
+        .m{
+            margin-left: 6px;
+        }
+
         .content {
-            margin-top: auto;
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
 <h1>Welcome to my GitHub Profile</h1>
-<h2>I am Jakub Cegłowski</h2>
+<h2>Jakub Cegłowski - PHP Developer</h2>
 <div class="content">
-    <p>
-        As a Junior PHP Fullstack Developer I have over two years of experience creating web applications across both backend and frontend layers.
-    </p>
-    <p>
-        My expertise lies in PHP development with frameworks like Symfony and crafting advanced user interfaces using JavaScript ES6+, SCSS, and frontend libraries.
-    </p>
+    <a href="https://github.com/Ceglaa02" class="btn">Go to GitHub <i class="bi bi-globe2 m"></i></a>
 </div>
 </body>
 </html>
